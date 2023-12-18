@@ -1,0 +1,54 @@
+#navigation{
+    width: 100%;
+    border-bottom: 1px solid #0000001e;
+    flex-shrink: 0;
+    
+    .navbar{
+        width: 80%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        align-items: center;
+        .leftNavbar{
+h3{
+    font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+letter-spacing: 0.72px;
+}
+        }
+        .rightNavbar{
+            display: flex;
+            gap: 148px;
+            align-items: baseline;
+            .pages{
+.page{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+            }
+            .icons{
+align-items: baseline;
+display: flex;
+gap: 15px;
+.input{
+    width: 220px;
+    display: flex;
+    background-color: #F5F5F5;
+    padding: 7px 12px 7px 20px;
+    gap: 10px;
+    input{
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+    
+}
+            }
+        }
+    }
+}

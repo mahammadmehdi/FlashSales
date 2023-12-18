@@ -1,0 +1,133 @@
+#homePage {
+    width: 100%;
+
+    .homeHeader {
+        width: 80%;
+        margin: auto;
+        display: flex;
+
+        .leftHeader {
+            width: 20%;
+            border-right: 1px solid #0000001e;
+            padding-top: 2%;
+            padding-left: 8%;
+            ul{
+                display: flex;
+            flex-direction: column;
+            gap: 16px;
+            }
+        }
+
+        .rightHeader {
+            width: 80%;
+            padding-top: 2%;
+
+
+            .rightImage {
+                width: 60%;
+                height: 344px;
+                background-color: black;
+                margin-left: 6%;
+                display: flex;
+
+                .imageRight {
+                    img {
+                        width: 446px;
+                        height: 340px;
+                    }
+                }
+
+                .imageLeft {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 70px;
+                   
+                    .iphone {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 40px;
+                            height: 40px;
+                        }
+                        .text{
+                            color: white;
+                        }
+                    }
+
+                    .main {
+                        color: white;
+                        font-size: 30px;
+                    }
+
+                    .shop {
+                        color: white;
+                    }
+
+                }
+            }
+        }
+    }
+    .flashSales{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+        .today{
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px; /* 125% */
+            color: #DB4444;
+        }
+        .flashSalesBox{
+            display: flex;
+            justify-content: space-between;
+            .main{
+                display: flex;
+                gap: 87px;
+                align-items: baseline;
+               .name{
+                font-family: Inter;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 48px; /* 133.333% */
+                letter-spacing: 1.44px;
+               }
+               .time{
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px; /* 93.75% */
+                letter-spacing: 1.28px;
+               }
+            }
+            .icons{
+display: flex;
+.fa-arrow-left{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-arrow-right{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+            }
+
+        }
+    }
+}
