@@ -1,0 +1,21 @@
+.categoryCards{
+width: 80%;
+margin: auto;
+
+.categoryCard{
+    width: 170px;
+    height: 145px;
+    border: 1px solid #0000001e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    .categoryCardIcon{
+font-size: 35px;
+    }
+    .categoryCardName{
+font-size: 20px;
+    }
+}
+}

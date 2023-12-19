@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./index.scss";
 
-function FlashSalesCard() {
+
+function BestSellingCards() {
   const [product, setProduct] = useState([]);
   useEffect(() => {
     fetch("https://657ef0619d10ccb465d58d01.mockapi.io/api/products/products")
@@ -12,11 +12,11 @@ function FlashSalesCard() {
   return (
     <div className="flashSalesPages">
       <div className="flashSalesCards">
-        {product.map((x) => (
+        {product.slice(0,4).map((x) => (
           <div className="flashSalesCard">
             <div className="cardImages">
             <img className="cardImage" src={x.image} />
-            <li className="cardPersentage">{x.persentage}</li>
+            
             <div className="icons">
             <i class="fa-regular fa-heart"></i>
             <i class="fa-regular fa-eye"></i>
@@ -45,4 +45,4 @@ function FlashSalesCard() {
   );
 }
 
-export default FlashSalesCard;
+export default BestSellingCards;
